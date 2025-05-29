@@ -7,7 +7,7 @@ from scipy.interpolate import griddata
 def prepare(file:str, directory: str = None):
     name = file.replace(".dat", ".txt")
     to_save = []
-    with open(f"rawdata/{file}", "r") as txt_read:
+    with open(f"D23/rawdata/{file}", "r") as txt_read:
         for line in txt_read:
             numbers = re.findall(r"[-+]?\d*\.\d+|\d+", line)
             to_save.append(numbers)
@@ -73,4 +73,4 @@ def make_map(i_start: int, i_stop: int, i_exclude: list[int] = [], title: str = 
 
 
 if __name__ == "__main__":
-    make_map(92428, 92449,i_exclude=[92445, 92447], directory="50mK", title="Scan at temperature {temp} K", x_label="(1/3, 1/3, QL)", y_axis="H (T)", z_axis="Intensity (a.u.)")
+    make_map(89766, 89792, i_exclude=[88884], directory="D23/900mK", title="Scan at temperature {temp} K", x_label="(1/3, 1/3, QL)", y_axis="H (T)", z_axis="Intensity (a.u.)")
