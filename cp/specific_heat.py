@@ -4,7 +4,7 @@ from scipy.interpolate import UnivariateSpline
 import pandas as pd
 from scipy.signal import find_peaks
 import re
-data = pd.read_csv("Phase_diagram_boundary/NBMPO_along_ab.txt", header=0, sep=",", names=["T", "B", "B_T", "HC"], engine="python", encoding='unicode_escape')
+data = pd.read_csv("cp/NBMPO_along_ab.txt", header=0, sep=",", names=["T", "B", "B_T", "HC"], engine="python", encoding='unicode_escape')
 data["HC"] = data["HC"]*1000
 extremes = []
 T = []
@@ -46,7 +46,7 @@ for i in range(len(data)):
 
 plt.figure()
 pattern = re.compile(r'([^,]*),([^,]*),([^,]*)')
-with open("Phase_diagram_boundary\extremes_along_ab.txt", "r") as txt:
+with open("cp\extremes_along_ab_specific_heat.txt", "r") as txt:
     for line in str.split(txt.read(), "\n"):
         line = line.strip()
         match = pattern.match(line)
@@ -61,7 +61,7 @@ with open("Phase_diagram_boundary\extremes_along_ab.txt", "r") as txt:
 plt.xlim((0.8, 1.5))
 plt.ylim((0, 6))
 
-with open("Phase_diagram_boundary/extremes_along_ab.txt", "w") as txt:
+with open("cp\extremes_along_ab_specific_heat.txt", "w") as txt:
     txt.write("T(K), B(T), HC \n")
     for point in extremes:
         if point[0] < 1.5:

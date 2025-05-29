@@ -8,7 +8,7 @@ from matplotlib.lines import Line2D
 # Specific heat
 fig, ax = plt.subplots()
 pattern = re.compile(r'([^,]*),([^,]*),([^,]*)')
-with open("Phase_diagram_boundary\extremes_along_ab_specific_heat.txt", "r") as txt:
+with open("cp/extremes_along_ab_specific_heat.txt", "r") as txt:
     for line in str.split(txt.read(), "\n"):
         line = line.strip()
         match = pattern.match(line)
@@ -21,8 +21,20 @@ with open("Phase_diagram_boundary\extremes_along_ab_specific_heat.txt", "r") as 
                 bb = float(bb)
                 plt.plot(tt, bb, "ro")
 
+
+with open("cp/H_along_ab_transitions", "r") as txt:
+    for line in txt:
+        line = line.strip()
+        tt, hh = line.split(",")
+        if tt == "T(K)" and hh == "H(T)":
+            continue
+        tt = float(tt)
+        hh = float(hh)
+        plt.plot(tt, hh, "bo")
+
+"""
 pattern = re.compile(r"([^,]*),([^,]*),([^,]*),([^,]*),([^,]*),([^,]*)")
-with open("Phase_diagram_boundary\extremes_along_ab_neutrons.txt") as txt:
+with open("cp/extremes_along_ab_neutrons.txt") as txt:
     for line in str.split(txt.read(), "\n"):
         line = line.strip()
         match = pattern.match(line)
@@ -37,7 +49,7 @@ with open("Phase_diagram_boundary\extremes_along_ab_neutrons.txt") as txt:
                         h = float(h)
                         plt.plot(tt, h, "bo")
 
-ankit_data = pd.read_csv("Phase_diagram_boundary\sketch_H_par_ab.dat", header=1, names=["H", "T1", "T2"], sep=",")
+ankit_data = pd.read_csv("cp/sketch_H_par_ab.dat", header=1, names=["H", "T1", "T2"], sep=",")
 for i in range(len(ankit_data)):
     plt.plot(ankit_data["T1"][i], ankit_data["H"][i], "ko")
     if ankit_data["T1"][i]:
@@ -50,8 +62,8 @@ legend_elements = [
     Line2D([0], [0], marker="o", color="w", label="Neutrons", markerfacecolor='b', markersize=7),
     Line2D([0], [0], marker="o", color="w", label="Ankit data treatment", markerfacecolor='k', markersize=7)
     ]
+"""
 
-
-ax.legend(handles=legend_elements)
-plt.savefig("Phase_diagram_boundary/Data_treatment_comparison_ab.jpg")
+#ax.legend(handles=legend_elements)
+#plt.savefig("cp/Data_treatment_comparison_ab.jpg")
 plt.show()
