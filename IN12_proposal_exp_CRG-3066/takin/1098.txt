@@ -1,0 +1,148 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+  075104       1       0                                                        
+ILL TAS data in the new ASCII format follow afte the line VV..V                 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      80                                                                        
+IN12  internal use08-Apr-24 11:18:52                                            
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: IN12
+USER_: internal use
+FILE_: 075104
+DATE_: 08-Apr-24 11:18:52
+TITLE: Internal use
+TYPE_: tas
+COMND: sc en 0 den 0.01 np 31 ti 1
+POSQE: QH=  -0.3599, QK=   0.0000, QL=   0.8426, EN=  -0.1505, UN=meV
+CURVE: MONO= auto, ANA= auto
+STEPS: EN=   0.0100
+PARAM: GONIO= 0
+PARAM: DM=   3.35500, DA=   3.34200, KFIX=   1.10009
+PARAM: SM= -1, SS=  1, SA= -1, FX=  2
+PARAM: ALF1= 120.00, ALF2= 120.00, ALF3=  43.00, ALF4= 120.00
+PARAM: BET1= 120.00, BET2= 120.00, BET3= 120.00, BET4= 120.00
+PARAM: ETAM=  35.00, ETAA=  35.00
+PARAM: AS=   6.28000, BS=   6.28000, CS=   6.28000
+PARAM: AA=  90.00000, BB=  90.00000, CC=  90.00000, ETAS=   1.00000
+PARAM: AX=  1.000, AY=  0.000, AZ=  0.000
+PARAM: BX=  0.000, BY=  0.000, BZ=  1.000
+VARIA: SELPOS=in
+VARIA: SELSPEED=  10519
+VARIA: A1      = -61.37, A2      =-122.79, A3      =  -0.01, A4      =  50.03
+VARIA: A5      = -58.71, A6      =-117.41, GU      =   0.04, GL      =  -0.04
+VARIA: A3P     =-326.45, GA      =   2.60, GM      =   0.01, RA      =  24.60
+VARIA: RMV     =  28.25, RMH     =  82.97, TA      =   4.50, TM      =  -3.97
+VARIA: GC      =  -0.01, DIA1X   =  62.24, DIA2X   =  87.92, DIA2Z   = 162.15
+VARIA: I1      =   0.00, I2      =  -0.00, I3      =  -0.01, I4      =   0.00
+VARIA: I5      =  -3.90, I6      =   1.65, I7      =   0.00, I8      =   0.00
+VARIA: IH1     =   0.00, IH2     =   0.00
+ZEROS: A1      =  -2.01, A2      =  -0.13, A3      =-180.00, A4      =  -0.23
+ZEROS: A5      = -89.55, A6      =   0.17, GU      =   0.00, GL      =   0.00
+ZEROS: A3P     =-125.45, GA      =   0.00, GM      =   0.00, RA      =   0.00
+ZEROS: RMV     =   0.00, RMH     =   0.00, TA      =   0.00, TM      =   0.00
+ZEROS: GC      =   0.00, DIA1X   =   0.00, DIA2X   =   0.00, DIA2Z   =   0.00
+PARAM: IF1H=     1.555, IF1V=    -3.900, IF2H=     1.467, IF2V=     4.276
+PARAM: TI=      1.00
+PARAM: TT=      0.00, RT=      0.00
+PARAM: REACTOR=54.69
+FORMT:
+DATA_:
+Qh          Qk          Ql          En          CNTS
+0.593939     0.593939     1            0.989899     2.02631e-62          nan          None          nan
+0.59697      0.59697      1            0          0.547119          None          nan
+0.59697      0.59697      1            0.010101     0.488825          nan          None          nan
+0.59697      0.59697      1            0.020202     0.450137          nan          None          nan
+0.59697      0.59697      1            0.030303     0.369375          nan          None          nan
+0.59697      0.59697      1            0.040404     0.274127          nan          None          nan
+0.59697      0.59697      1            0.0505051    0.197009          nan          None          nan
+0.59697      0.59697      1            0.0606061    0.114543          nan          None          nan
+0.59697      0.59697      1            0.0707071    0.0676152          nan          None          nan
+0.59697      0.59697      1            0.0808081    0.0465789          nan          None          nan
+0.59697      0.59697      1            0.0909091    0.0246074          nan          None          nan
+0.59697      0.59697      1            0.10101      0.00852309          nan          None          nan
+0.59697      0.59697      1            0.111111     0.00492259          nan          None          nan
+0.59697      0.59697      1            0.121212     0.000921996          nan          None          nan
+0.59697      0.59697      1            0.131313     0.000948527          nan          None          nan
+0.59697      0.59697      1            0.141414     0.000143503          nan          None          nan
+0.59697      0.59697      1            0.151515     1.27399e-05          nan          None          nan
+0.59697      0.59697      1            0.161616     2.10333e-06          nan          None          nan
+0.59697      0.59697      1            0.171717     7.72967e-07          nan          None          nan
+0.59697      0.59697      1            0.181818     8.32972e-07          nan          None          nan
+0.59697      0.59697      1            0.191919     4.27736e-08          nan          None          nan
+0.59697      0.59697      1            0.20202      2.58156e-10          nan          None          nan
+0.59697      0.59697      1            0.212121     1.045e-12          nan          None          nan
+0.59697      0.59697      1            0.222222     3.34728e-09          nan          None          nan
+0.59697      0.59697      1            0.232323     7.49849e-08          nan          None          nan
+0.59697      0.59697      1            0.242424     4.0709e-08          nan          None          nan
+0.59697      0.59697      1            0.252525     3.39591e-10          nan          None          nan
+0.59697      0.59697      1            0.262626     1.93926e-07          nan          None          nan
+0.59697      0.59697      1            0.272727     6.0585e-05          nan          None          nan
+0.59697      0.59697      1            0.282828     8.72205e-07          nan          None          nan
+0.59697      0.59697      1            0.292929     1.05314e-05          nan          None          nan
+0.59697      0.59697      1            0.30303      0.000219946          nan          None          nan
+0.59697      0.59697      1            0.313131     0.00132313          nan          None          nan
+0.59697      0.59697      1            0.323232     0.00120686          nan          None          nan
+0.59697      0.59697      1            0.333333     0.00279594          nan          None          nan
+0.59697      0.59697      1            0.343434     0.00606814          nan          None          nan
+0.59697      0.59697      1            0.353535     0.00731752          nan          None          nan
+0.59697      0.59697      1            0.363636     0.0182885          nan          None          nan
+0.59697      0.59697      1            0.373737     0.028474          nan          None          nan
+0.59697      0.59697      1            0.383838     0.0508349          nan          None          nan
+0.59697      0.59697      1            0.393939     0.0646382          nan          None          nan
+0.59697      0.59697      1            0.40404      0.104625          nan          None          nan
+0.59697      0.59697      1            0.414141     0.124252          nan          None          nan
+0.59697      0.59697      1            0.424242     0.175343          nan          None          nan
+0.59697      0.59697      1            0.434343     0.200107          nan          None          nan
+0.59697      0.59697      1            0.444444     0.253865          nan          None          nan
+0.59697      0.59697      1            0.454545     0.253706          nan          None          nan
+0.59697      0.59697      1            0.464646     0.269778          nan          None          nan
+0.59697      0.59697      1            0.474747     0.294662          nan          None          nan
+0.59697      0.59697      1            0.484848     0.28602          nan          None          nan
+0.59697      0.59697      1            0.494949     0.291454          nan          None          nan
+0.59697      0.59697      1            0.505051     0.274177          nan          None          nan
+0.59697      0.59697      1            0.515152     0.227431          nan          None          nan
+0.59697      0.59697      1            0.525253     0.219927          nan          None          nan
+0.59697      0.59697      1            0.535354     0.177257          nan          None          nan
+0.59697      0.59697      1            0.545455     0.174243          nan          None          nan
+0.59697      0.59697      1            0.555556     0.114959          nan          None          nan
+0.59697      0.59697      1            0.565657     0.101742          nan          None          nan
+0.59697      0.59697      1            0.575758     0.0838283          nan          None          nan
+0.59697      0.59697      1            0.585859     0.0500545          nan          None          nan
+0.59697      0.59697      1            0.59596      0.0453163          nan          None          nan
+0.59697      0.59697      1            0.606061     0.0324528          nan          None          nan
+0.59697      0.59697      1            0.616162     0.0239281          nan          None          nan
+0.59697      0.59697      1            0.626263     0.0143589          nan          None          nan
+0.59697      0.59697      1            0.636364     0.00932828          nan          None          nan
+0.59697      0.59697      1            0.646465     0.00791541          nan          None          nan
+0.59697      0.59697      1            0.656566     0.00447637          nan          None          nan
+0.59697      0.59697      1            0.666667     0.00113216          nan          None          nan
+0.59697      0.59697      1            0.676768     0.00153164          nan          None          nan
+0.59697      0.59697      1            0.686869     0.00529112          nan          None          nan
+0.59697      0.59697      1            0.69697      1.26543e-05          nan          None          nan
+0.59697      0.59697      1            0.707071     3.3042e-05          nan          None          nan
+0.59697      0.59697      1            0.717172     0.000505447          nan          None          nan
+0.59697      0.59697      1            0.727273     5.05262e-06          nan          None          nan
+0.59697      0.59697      1            0.737374     0.00063331          nan          None          nan
+0.59697      0.59697      1            0.747475     1.95742e-05          nan          None          nan
+0.59697      0.59697      1            0.757576     1.7006e-07          nan          None          nan
+0.59697      0.59697      1            0.767677     9.31459e-10          nan          None          nan
+0.59697      0.59697      1            0.777778     1.20595e-11          nan          None          nan
+0.59697      0.59697      1            0.787879     4.65418e-08          nan          None          nan
+0.59697      0.59697      1            0.79798      9.17792e-17          nan          None          nan
+0.59697      0.59697      1            0.808081     1.92538e-15          nan          None          nan
+0.59697      0.59697      1            0.818182     6.98632e-16          nan          None          nan
+0.59697      0.59697      1            0.828283     3.17343e-16          nan          None          nan
+0.59697      0.59697      1            0.838384     8.21956e-20          nan          None          nan
+0.59697      0.59697      1            0.848485     5.20817e-22          nan          None          nan
+0.59697      0.59697      1            0.858586     1.28052e-22          nan          None          nan
+0.59697      0.59697      1            0.868687     3.36447e-18          nan          None          nan
+0.59697      0.59697      1            0.878788     3.09909e-14          nan          None          nan
+0.59697      0.59697      1            0.888889     3.67769e-35          nan          None          nan
+0.59697      0.59697      1            0.89899      3.76171e-28          nan          None          nan
+0.59697      0.59697      1            0.909091     1.38639e-40          nan          None          nan
+0.59697      0.59697      1            0.919192     1.35756e-41          nan          None          nan
+0.59697      0.59697      1            0.929293     3.71558e-38          nan          None          nan
+0.59697      0.59697      1            0.939394     7.08628e-44          nan          None          nan
+0.59697      0.59697      1            0.949495     3.25681e-48          nan          None          nan
+0.59697      0.59697      1            0.959596     3.70023e-49          nan          None          nan
+0.59697      0.59697      1            0.969697     2.22615e-55          nan          None          nan
+0.59697      0.59697      1            0.979798     1.38665e-57          nan          None          nan

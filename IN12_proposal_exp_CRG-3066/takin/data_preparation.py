@@ -1,0 +1,81 @@
+import pandas as pd
+import numpy as np
+import re
+
+
+
+
+def uprav_file(file):
+    pattern = re.compile(r'(     |    |          )')
+    df = pd.read_csv(f"IN12_proposal_exp_CRG-3066/takin/{file}", skiprows=6, names=["h", "k", "l", "E", "S"], sep='          ' , engine="python")
+    ILL_header = """RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+  075104       1       0                                                        
+ILL TAS data in the new ASCII format follow afte the line VV..V                 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      80                                                                        
+IN12  internal use08-Apr-24 11:18:52                                            
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: IN12
+USER_: internal use
+FILE_: 075104
+DATE_: 08-Apr-24 11:18:52
+TITLE: Internal use
+TYPE_: tas
+COMND: sc en 0 den 0.01 np 31 ti 1
+POSQE: QH=  -0.3599, QK=   0.0000, QL=   0.8426, EN=  -0.1505, UN=meV
+CURVE: MONO= auto, ANA= auto
+STEPS: EN=   0.0100
+PARAM: GONIO= 0
+PARAM: DM=   3.35500, DA=   3.34200, KFIX=   1.10009
+PARAM: SM= -1, SS=  1, SA= -1, FX=  2
+PARAM: ALF1= 120.00, ALF2= 120.00, ALF3=  43.00, ALF4= 120.00
+PARAM: BET1= 120.00, BET2= 120.00, BET3= 120.00, BET4= 120.00
+PARAM: ETAM=  35.00, ETAA=  35.00
+PARAM: AS=   6.28000, BS=   6.28000, CS=   6.28000
+PARAM: AA=  90.00000, BB=  90.00000, CC=  90.00000, ETAS=   1.00000
+PARAM: AX=  1.000, AY=  0.000, AZ=  0.000
+PARAM: BX=  0.000, BY=  0.000, BZ=  1.000
+VARIA: SELPOS=in
+VARIA: SELSPEED=  10519
+VARIA: A1      = -61.37, A2      =-122.79, A3      =  -0.01, A4      =  50.03
+VARIA: A5      = -58.71, A6      =-117.41, GU      =   0.04, GL      =  -0.04
+VARIA: A3P     =-326.45, GA      =   2.60, GM      =   0.01, RA      =  24.60
+VARIA: RMV     =  28.25, RMH     =  82.97, TA      =   4.50, TM      =  -3.97
+VARIA: GC      =  -0.01, DIA1X   =  62.24, DIA2X   =  87.92, DIA2Z   = 162.15
+VARIA: I1      =   0.00, I2      =  -0.00, I3      =  -0.01, I4      =   0.00
+VARIA: I5      =  -3.90, I6      =   1.65, I7      =   0.00, I8      =   0.00
+VARIA: IH1     =   0.00, IH2     =   0.00
+ZEROS: A1      =  -2.01, A2      =  -0.13, A3      =-180.00, A4      =  -0.23
+ZEROS: A5      = -89.55, A6      =   0.17, GU      =   0.00, GL      =   0.00
+ZEROS: A3P     =-125.45, GA      =   0.00, GM      =   0.00, RA      =   0.00
+ZEROS: RMV     =   0.00, RMH     =   0.00, TA      =   0.00, TM      =   0.00
+ZEROS: GC      =   0.00, DIA1X   =   0.00, DIA2X   =   0.00, DIA2Z   =   0.00
+PARAM: IF1H=     1.555, IF1V=    -3.900, IF2H=     1.467, IF2V=     4.276
+PARAM: TI=      1.00
+PARAM: TT=      0.00, RT=      0.00
+PARAM: REACTOR=54.69
+FORMT:
+DATA_:
+Qh          Qk          Ql          En          CNTS\n"""
+
+    pocitadlo_radku = 0
+    pocitadlo_filu = 1000
+    Qh = df["h"][0]
+    while pocitadlo_radku < len(df["h"]):
+        with open(f"IN12_proposal_exp_CRG-3066/takin/{pocitadlo_filu}.txt", "w") as txt:
+            txt.writelines(ILL_header)
+            while Qh == df["h"][pocitadlo_radku+1]:
+                #print(df['k'][pocitadlo_radku],df['l'][pocitadlo_radku])
+                if len(df['k'][pocitadlo_radku]) <= 3:
+                    print(1)
+                    txt.write(f"{df['h'][pocitadlo_radku]}          {df['k'][pocitadlo_radku]}          {df['l'][pocitadlo_radku]}          {df['E'][pocitadlo_radku]}          {df['S'][pocitadlo_radku]}\n")
+                else:
+                    txt.write(f"{df['h'][pocitadlo_radku]}          {df['k'][pocitadlo_radku]}          {df['l'][pocitadlo_radku]}          {df['E'][pocitadlo_radku]}          {df['S'][pocitadlo_radku]}\n")
+                pocitadlo_radku = pocitadlo_radku + 1
+            Qh = df["h"][pocitadlo_radku+1]
+            pocitadlo_filu = pocitadlo_filu + 1
+
+
+
+if __name__ == "__main__":
+    uprav_file("limited_spectrum.dat")

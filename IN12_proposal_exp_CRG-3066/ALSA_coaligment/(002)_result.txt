@@ -1,0 +1,15 @@
+Intensity of peak1 = 92.56% and FWHM = 2.93
+Intensity of peak2 = 5.73% and FWHM = 0.9133880981809114
+Intensity of peak3 = 1.71% and FWHM = 1.1065615344332953
+Intensity of peak1 = 92.56% and FWHM = 2.93
+Intensity of peak2 = 5.73% and FWHM = 0.9133880981809114
+Intensity of peak3 = 1.71% and FWHM = 1.1065615344332953
+Intensity of peak1 = 92.56% and FWHM = 2.93
+Intensity of peak2 = 5.73% and FWHM = 0.9133880981809114
+Intensity of peak3 = 1.71% and FWHM = 1.1065615344332953
+Intensity of peak1 = 92.56% and FWHM = 2.93
+Intensity of peak2 = 5.73% and FWHM = 0.9133880981878306
+Intensity of peak3 = 1.71% and FWHM = 1.106561534408227
+Intensity of peak1 = 92.56% and FWHM = 2.93
+Intensity of peak2 = 5.73% and FWHM = 0.9133880981809114
+Intensity of peak3 = 1.71% and FWHM = 1.1065615344332953

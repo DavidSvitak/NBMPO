@@ -1,0 +1,4 @@
+Intensity of peak1 = 71.5% and FWHM = 1.91
+Intensity of peak2 = 19.85% and FWHM = 2.2861264038952576
+Intensity of peak3 = 6.49% and FWHM = 1.2252229171042877
+Intensity of peak4 = 2.16% and FWHM = 1.0561124572454506
