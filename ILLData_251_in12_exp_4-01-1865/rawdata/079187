@@ -1,0 +1,77 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+  079187       1       0                                                        
+ILL TAS data in the new ASCII format follow afte the line VV..V                 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      80                                                                        
+IN12  n_biniskos  20-May-25 16:21:02                                            
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: IN12
+EXPNO: 4-01-1865
+USER_: n_biniskos
+LOCAL: SCHMALZL
+FILE_: 079187
+DATE_: 20-May-25 16:21:02
+
+TITLE: Temperature and magnetic field dependence of the spin excitation spectrum of a spin supersolid candidate
+TYPE_: tas
+COMND: sc a3 33.89 da3 0.2 np 25 ti 1
+POSQE: QH=   0.3354, QK=   0.3354, QL=   0.1431, EN=  -0.0001, UN=meV
+CURVE: MONO= auto, ANA= auto
+STEPS: A3=   0.2000
+PARAM: GONIO= 0
+PARAM: DM=   3.35500, DA=   3.35130, KFIX=   1.05000
+PARAM: SM= -1, SS=  1, SA= -1, FX=  2
+PARAM: ALF1= 120.00, ALF2=  60.00, ALF3=  60.00, ALF4= 120.00
+PARAM: BET1= 120.00, BET2= 120.00, BET3= 120.00, BET4= 120.00
+PARAM: ETAM=  35.00, ETAA=  35.00
+PARAM: AS=   5.35320, BS=   5.35320, CS=   7.07170
+PARAM: AA=  90.00000, BB=  90.00000, CC= 120.00000, ETAS=   1.00000
+PARAM: AX=  0.000, AY=  0.000, AZ=  1.000
+PARAM: BX=  1.000, BY=  1.000, BZ=  0.000
+VARIA: SELPOS=in
+VARIA: SELSPEED=  10357
+VARIA: A1      = -63.08, A2      =-126.21, A3      =  31.49, A4      =  44.64
+VARIA: A5      = -63.23, A6      =-126.45, GU      =-133.12, GL      =  40.20
+VARIA: A3P     =   0.00, GA      =   2.43, GM      =   0.20, RA      =  25.06
+VARIA: RMPGV   =  27.39, RMPGH   =  83.06, RMSIV   =  69.38, RMSIH   =  53.16
+VARIA: TA      =   5.00, TM      = 100.00, GC      =   0.00, DIA1X   =  62.30
+VARIA: DIA2X   =  87.97, DIA2Z   = 163.89, I1      =   0.00, I2      =   0.00
+VARIA: I3      =   0.00, I4      =   0.00, I5      =   0.00, I6      =   0.00
+VARIA: I7      =   0.00, I8      =   0.00, IH1     =   0.00, IH2     =   0.00
+ZEROS: A1      =   1.98, A2      =  -0.13, A3      =-174.22, A4      =  -0.02
+ZEROS: A5      = -89.53, A6      =   0.15, GU      =   0.00, GL      =   0.00
+ZEROS: A3P     =  13.52, GA      =   0.00, GM      =   0.00, RA      =   0.00
+ZEROS: RMPGV   =   0.00, RMPGH   =   0.00, RMSIV   =   0.00, RMSIH   =   0.00
+ZEROS: TA      =   0.00, TM      =   0.00, GC      =   0.00, DIA1X   =   0.00
+ZEROS: DIA2X   =   0.00, DIA2Z   =   0.00
+PARAM: TI=      1.00
+PARAM: TT=      0.89, RT=      1.90, MAG=      0.00
+PARAM: REACTOR=42.48
+FORMT:
+DATA_:
+  PNT        A3        M1      TIME      CNTS         A3        A3P         A4        TT2        MAG 
+   1      31.4900     5147     1.00      1296       31.490      0.000     44.644      0.888      0.000 
+   2      31.6900     5055     1.00      1501       31.690      0.000     44.644      0.888      0.000 
+   3      31.8900     5113     1.00      1651       31.890      0.000     44.644      0.889      0.000 
+   4      32.0900     5099     1.00      1881       32.090      0.000     44.644      0.885      0.000 
+   5      32.2900     4986     1.00      1919       32.290      0.000     44.644      0.884      0.000 
+   6      32.4900     5139     1.00      2091       32.490      0.000     44.644      0.890      0.000 
+   7      32.6900     5157     1.00      2368       32.690      0.000     44.644      0.890      0.000 
+   8      32.8900     5053     1.00      2735       32.890      0.000     44.644      0.893      0.000 
+   9      33.0900     5011     1.00      2981       33.090      0.000     44.644      0.893      0.000 
+  10      33.2900     4943     1.00      3226       33.290      0.000     44.644      0.885      0.000 
+  11      33.4900     4980     1.00      3068       33.490      0.000     44.644      0.887      0.000 
+  12      33.6900     4956     1.00      2909       33.690      0.000     44.644      0.883      0.000 
+  13      33.8900     5151     1.00      2666       33.890      0.000     44.644      0.883      0.000 
+  14      34.0900     4927     1.00      2399       34.090      0.000     44.644      0.879      0.000 
+  15      34.2900     5075     1.00      2047       34.290      0.000     44.644      0.881      0.000 
+  16      34.4900     4965     1.00      1620       34.490      0.000     44.644      0.880      0.000 
+  17      34.6900     4968     1.00      1313       34.690      0.000     44.644      0.880      0.000 
+  18      34.8900     5014     1.00      1203       34.890      0.000     44.644      0.880      0.000 
+  19      35.0900     4920     1.00      1064       35.090      0.000     44.644      0.878      0.000 
+  20      35.2900     4980     1.00      1033       35.290      0.000     44.644      0.880      0.000 
+  21      35.4900     5015     1.00       909       35.490      0.000     44.644      0.874      0.000 
+  22      35.6900     5113     1.00       866       35.690      0.000     44.644      0.874      0.000 
+  23      35.8900     4928     1.00       746       35.890      0.000     44.644      0.877      0.000 
+  24      36.0900     5086     1.00       641       36.090      0.000     44.644      0.877      0.000 
+  25      36.2900     5093     1.00       544       36.290      0.000     44.644      0.881      0.000 

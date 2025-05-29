@@ -1,0 +1,28 @@
+from ufit import *
+import matplotlib.pyplot as plt
+from ufit.plotting import mapping
+set_datatemplate('rawdata/079%03d')
+#data_232 = read_data(232, 'EN',"CNTS")
+#data_0 = read_data(235, 'EN',"CNTS")
+#data_03 = read_data(238, 'EN',"CNTS")
+#data_239 = read_data(239, 'EN',"CNTS")
+#data_243 = read_data(243, 'EN',"CNTS")
+#data_050 = read_data(242, 'EN',"CNTS")
+#data_311 = read_data(311, 'EN',"CNTS")
+#data_199 = read_data(199, "EN", "CNTS")
+#data_214 = read_data(214, "EN", "CNTS")
+#data_0.plot(label="(0,0,0.5)")
+#data_03.plot(label="(0.333,0.333,0.5)")
+#data_232.plot(label="(0.5,0.5,0.18)")
+#data_239.plot(label="(0.5,0.5,0.5)")
+#data_243.plot(label="(0.5,0.5,0)")
+#data_311.plot()
+#data_214.plot()
+#data_199.plot()
+#for i in range(276, 284):
+#    data = read_data(i, "EN", "CNTS")
+#    data.plot()
+data = read_data(283, "EN", "CNTS")
+data.plot()
+plt.title("")
+plt.show()
