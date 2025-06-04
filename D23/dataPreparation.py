@@ -25,7 +25,7 @@ def prepare(file:str, directory: str = None):
                     txt.write(f"{float(num)},")
                 txt.write("\n")
 
-def make_map(i_start: int, i_stop: int, i_exclude: list[int] = [], title: str = "", x_label: str = "", y_axis: str = "", z_axis: str = "", directory: str = None) -> None:
+def make_map(i_start: int, i_stop: int, i_exclude: list[int] = [], title: str = "", x_label: str = "", y_axis: str = "", z_axis: str = "", directory: str = None, transitions = None) -> None:
     
     for i in range(i_start, i_stop+1):
         if i in i_exclude:
@@ -69,8 +69,18 @@ def make_map(i_start: int, i_stop: int, i_exclude: list[int] = [], title: str = 
     plt.title(f"{title}")
     plt.xlabel(f"{x_label}")
     plt.ylabel(f"{y_axis}")
-    plt.savefig(f"{directory}/{title.strip()}.png")
-
+    for point in transitions:
+        if point > y_data.max():
+            continue
+        plt.plot([x_data.min(), x_data.max()], [point, point], "r-")
+    if transitions is not None:
+        plt.savefig(f"{directory}/{title.strip()}_transitions.png")
+    else:
+        plt.savefig(f"{directory}/{title.strip()}.png")
 
 if __name__ == "__main__":
-    make_map(89766, 89792, i_exclude=[88884], directory="D23/900mK", title="Scan at temperature {temp} K", x_label="(1/3, 1/3, QL)", y_axis="H (T)", z_axis="Intensity (a.u.)")
+    data = [1.1,2.7]
+    directory="D23/H_along_c/1200mK"
+    make_map(92981, 92997, i_exclude=[88884], directory=directory, title="Scan at temperature {temp} K", x_label="(1/3, 1/3, QL)", y_axis="H (T)", z_axis="Intensity (a.u.)", transitions=data)
+    
+    
