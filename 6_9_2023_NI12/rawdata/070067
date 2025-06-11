@@ -1,0 +1,83 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+  070067       1       0                                                        
+ILL TAS data in the new ASCII format follow afte the line VV..V                 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      80                                                                        
+IN12  n_biniskos  06-Sep-23 15:15:58                                            
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: IN12
+EXPNO: 4-01-1795
+USER_: n_biniskos
+LOCAL: STEFFENS
+FILE_: 070067
+DATE_: 06-Sep-23 15:15:58
+
+TITLE: Investigating the spin excitationsin the two dimensional antiferromagnet Na2BaMn(PO4)2
+TYPE_: tas
+COMND: bs d1b 32 dd1b -1 np 32 ti 1
+POSQE: QH=   0.0000, QK=   0.0000, QL=   2.0006, EN=   0.0011, UN=meV
+CURVE: MONO= auto, ANA= auto
+STEPS: D1B=  -1.0000
+PARAM: GONIO= 0
+PARAM: DM=   3.35500, DA=   3.35400, KFIX=   1.80012
+PARAM: SM= -1, SS=  1, SA= -1, FX=  2
+PARAM: ALF1= 120.00, ALF2= 120.00, ALF3= 120.00, ALF4= 120.00
+PARAM: BET1= 120.00, BET2= 120.00, BET3= 120.00, BET4= 120.00
+PARAM: ETAM=  35.00, ETAA=  35.00
+PARAM: AS=   5.38000, BS=   5.38000, CS=   7.10000
+PARAM: AA=  90.00000, BB=  90.00000, CC= 120.00000, ETAS=   1.00000
+PARAM: AX=  1.000, AY=  1.000, AZ=  0.000
+PARAM: BX=  0.000, BY=  0.000, BZ=  1.000
+VARIA: SELPOS=in
+VARIA: SELSPEED=  17754
+VARIA: A1      = -31.35, A2      = -62.68, A3      =   8.01, A4      =  58.91
+VARIA: A5      = -31.37, A6      = -62.71, GU      =-133.12, GL      =  40.20
+VARIA: A3P     =  21.45, GA      =   2.94, GM      =   0.01, RA      =  18.74
+VARIA: RMV     =  36.51, RMH     =  49.25, TA      =   4.60, TM      =  -3.98
+VARIA: GC      =  -0.01, DIA1X   =  62.49, DIA2X   =  87.99, DIA2Z   = 162.18
+VARIA: I1      =   0.00, I2      =   0.00, I3      =   0.00, I4      =   0.00
+VARIA: I5      =   0.00, I6      =   0.00, I7      =   0.00, I8      =   0.00
+VARIA: IH1     =   0.00, IH2     =   0.00
+ZEROS: A1      =  -2.01, A2      =  -0.24, A3      =-180.00, A4      =  -0.22
+ZEROS: A5      = -89.43, A6      =   0.17, GU      =   0.00, GL      =   0.00
+ZEROS: A3P     =  21.83, GA      =   0.00, GM      =   0.00, RA      =   0.00
+ZEROS: RMV     =   0.00, RMH     =   0.00, TA      =   0.00, TM      =   0.00
+ZEROS: GC      =   0.00, DIA1X   =   0.00, DIA2X   =   0.00, DIA2Z   =   0.00
+PARAM: TI=      1.00
+PARAM: TT=      9.96, RT=      9.96, MAG=      0.00
+PARAM: REACTOR=43.19
+FORMT:
+DATA_:
+  PNT       D1B        M1      TIME      CNTS 
+   1      32.0000     6750     1.00      6515   
+   2      31.0000     6835     1.00      6611   
+   3      30.0000     6863     1.00      6624   
+   4      29.0000     6950     1.00      6538   
+   5      28.0000     7062     1.00      6595   
+   6      27.0000     6883     1.00      6419   
+   7      26.0000     6994     1.00      6551   
+   8      25.0000     7007     1.00      6635   
+   9      24.0000     6924     1.00      6691   
+  10      23.0000     7079     1.00      6612   
+  11      22.0000     6835     1.00      6602   
+  12      21.0000     6914     1.00      6570   
+  13      20.0000     6832     1.00      6479   
+  14      19.0000     6904     1.00      6564   
+  15      18.0000     6808     1.00      6540   
+  16      17.0000     6799     1.00      6572   
+  17      16.0000     6771     1.00      6620   
+  18      15.0000     7021     1.00      6658   
+  19      14.0000     6817     1.00      6575   
+  20      13.0000     6931     1.00      6456   
+  21      12.0000     6979     1.00      6601   
+  22      11.0000     6826     1.00      6427   
+  23      10.0000     6809     1.00      6275   
+  24       9.0000     7011     1.00      6253   
+  25       8.0000     6909     1.00      6187   
+  26       7.0000     6868     1.00      5935   
+  27       6.0000     6888     1.00      5791   
+  28       5.0000     6953     1.00      5575   
+  29       4.0000     6830     1.00      5335   
+  30       3.0000     6937     1.00      5172   
+  31       2.0000     6792     1.00      4954   
+  32       1.0000     6942     1.00      4761   

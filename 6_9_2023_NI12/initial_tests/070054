@@ -1,0 +1,65 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+  070054       1       0                                                        
+ILL TAS data in the new ASCII format follow afte the line VV..V                 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      80                                                                        
+IN12  n_biniskos  06-Sep-23 13:22:06                                            
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: IN12
+EXPNO: 4-01-1795
+USER_: n_biniskos
+LOCAL: STEFFENS
+FILE_: 070054
+DATE_: 06-Sep-23 13:22:06
+
+TITLE: Investigating the spin excitationsin the two dimensional antiferromagnet Na2BaMn(PO4)2
+TYPE_: tas
+COMND: sc qh 1 1 0 0 dqh 0.01 0.01 0 0 np 25 ti 1
+POSQE: QH=   0.8802, QK=   0.8802, QL=  -0.0002, EN=  -0.0002, UN=meV
+CURVE: MONO= auto, ANA= auto
+STEPS: QH=   0.0100, QK=   0.0100
+PARAM: GONIO= 0
+PARAM: DM=   3.35500, DA=   3.35400, KFIX=   1.40024
+PARAM: SM= -1, SS=  1, SA= -1, FX=  2
+PARAM: ALF1= 120.00, ALF2= 120.00, ALF3= 120.00, ALF4= 120.00
+PARAM: BET1= 120.00, BET2= 120.00, BET3= 120.00, BET4= 120.00
+PARAM: ETAM=  35.00, ETAA=  35.00
+PARAM: AS=   5.38000, BS=   5.38000, CS=   7.10000
+PARAM: AA=  90.00000, BB=  90.00000, CC= 120.00000, ETAS=   1.00000
+PARAM: AX=  1.000, AY=  1.000, AZ=  0.000
+PARAM: BX=  0.000, BY=  0.000, BZ=  1.000
+VARIA: SELPOS=in
+VARIA: SELSPEED=  13807
+VARIA: A1      = -41.96, A2      = -83.94, A3      =   8.01, A4      =  94.47
+VARIA: A5      = -42.00, A6      = -83.97, GU      =-133.12, GL      =  40.20
+VARIA: A3P     = 129.23, GA      =   2.94, GM      =   0.01, RA      =  21.24
+VARIA: RMV     =  31.99, RMH     =  63.27, TA      =   4.60, TM      =  -3.98
+VARIA: GC      =  -0.01, DIA1X   =  62.45, DIA2X   =  87.99, DIA2Z   = 162.18
+VARIA: I1      =   0.00, I2      =   0.00, I3      =   0.00, I4      =   0.00
+VARIA: I5      =   0.00, I6      =   0.00, I7      =   0.00, I8      =   0.00
+VARIA: IH1     =   0.00, IH2     =   0.00
+ZEROS: A1      =  -2.01, A2      =  -0.24, A3      =-180.00, A4      =  -0.22
+ZEROS: A5      = -89.43, A6      =   0.17, GU      =   0.00, GL      =   0.00
+ZEROS: A3P     =  21.83, GA      =   0.00, GM      =   0.00, RA      =   0.00
+ZEROS: RMV     =   0.00, RMH     =   0.00, TA      =   0.00, TM      =   0.00
+ZEROS: GC      =   0.00, DIA1X   =   0.00, DIA2X   =   0.00, DIA2Z   =   0.00
+PARAM: TI=      1.00
+PARAM: TT=      1.32, RT=      1.32, MAG=      0.00
+PARAM: REACTOR=43.21
+FORMT:
+DATA_:
+  PNT        QH        QK        QL        EN        M1      TIME      CNTS 
+   1       0.8802    0.8802   -0.0002   -0.0002     7586     1.00        32   
+   2       0.8901    0.8901    0.0004   -0.0002     7671     1.00        29   
+   3       0.9001    0.9001    0.0002   -0.0002     7634     1.00        18   
+   4       0.9101    0.9101   -0.0000   -0.0002     7619     1.00        38   
+   5       0.9201    0.9201   -0.0000   -0.0002     7588     1.00        21   
+   6       0.9301    0.9301    0.0002   -0.0002     7815     1.00        31   
+   7       0.9401    0.9401    0.0002   -0.0002     7688     1.00        38   
+   8       0.9501    0.9501    0.0002   -0.0002     7684     1.00        35   
+   9       0.9601    0.9601    0.0002   -0.0002     7779     1.00        30   
+  10       0.9701    0.9701   -0.0000   -0.0002     7721     1.00        36   
+  11       0.9801    0.9801   -0.0000   -0.0002     7743     1.00        42   
+  12       0.9901    0.9901   -0.0000   -0.0002     7707     1.00       211   
+  13       1.0001    1.0001    0.0004   -0.0002     7707     1.00       781   
+  14       1.0101    1.0101    0.0002   -0.0002     7807     1.00       456   

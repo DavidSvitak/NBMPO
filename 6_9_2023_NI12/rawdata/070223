@@ -1,0 +1,62 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+  070223       1       0                                                        
+ILL TAS data in the new ASCII format follow afte the line VV..V                 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      80                                                                        
+IN12  n_biniskos  12-Sep-23 04:48:17                                            
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+INSTR: IN12
+EXPNO: 4-01-1795
+USER_: n_biniskos
+LOCAL: STEFFENS
+FILE_: 070223
+DATE_: 12-Sep-23 04:48:17
+
+TITLE: Investigating the spin excitationsin the two dimensional antiferromagnet Na2BaMn(PO4)2
+TYPE_: tas
+COMND: bs qh 0.35 0.35 0 0 dqh 0 0 0 0.1 np 11 mn 1000000
+POSQE: QH=   0.3503, QK=   0.3503, QL=   0.0001, EN=  -0.0003, UN=meV
+CURVE: MONO= auto, ANA= auto
+STEPS: EN=   0.1000
+PARAM: GONIO= 0
+PARAM: DM=   3.35500, DA=   3.35400, KFIX=   1.10009
+PARAM: SM= -1, SS=  1, SA= -1, FX=  2
+PARAM: ALF1= 120.00, ALF2= 120.00, ALF3= 120.00, ALF4= 120.00
+PARAM: BET1= 120.00, BET2= 120.00, BET3= 120.00, BET4= 120.00
+PARAM: ETAM=  35.00, ETAA=  35.00
+PARAM: AS=   5.38000, BS=   5.38000, CS=   7.10000
+PARAM: AA=  90.00000, BB=  90.00000, CC= 120.00000, ETAS=   1.00000
+PARAM: AX=  1.000, AY=  1.000, AZ=  0.000
+PARAM: BX=  0.000, BY=  0.000, BZ=  1.000
+VARIA: SELPOS=in
+VARIA: SELSPEED=  10850
+VARIA: A1      = -58.33, A2      =-116.70, A3      =   8.00, A4      =  43.66
+VARIA: A5      = -58.37, A6      =-116.74, GU      =-133.12, GL      =  40.20
+VARIA: A3P     = 103.82, GA      =   3.02, GM      =   0.01, RA      =  24.28
+VARIA: RMV     =  28.62, RMH     =  80.49, TA      =   4.59, TM      =  -3.98
+VARIA: GC      =  -0.01, DIA1X   =  62.45, DIA2X   =  87.99, DIA2Z   = 162.15
+VARIA: I1      =   0.00, I2      =   0.00, I3      =   0.00, I4      =   0.00
+VARIA: I5      =   0.00, I6      =   0.00, I7      =   0.00, I8      =   0.00
+VARIA: IH1     =   0.00, IH2     =   0.00
+ZEROS: A1      =  -2.01, A2      =  -0.24, A3      =-180.00, A4      =  -0.22
+ZEROS: A5      = -89.43, A6      =   0.17, GU      =   0.00, GL      =   0.00
+ZEROS: A3P     =  21.83, GA      =   0.00, GM      =   0.00, RA      =   0.00
+ZEROS: RMV     =   0.00, RMH     =   0.00, TA      =   0.00, TM      =   0.00
+ZEROS: GC      =   0.00, DIA1X   =   0.00, DIA2X   =   0.00, DIA2Z   =   0.00
+PARAM: MN= 1000000
+PARAM: TT=      0.06, RT=      0.06, MAG=    -10.00
+PARAM: REACTOR=43.33
+FORMT:
+DATA_:
+  PNT        QH        QK        QL        EN        M1      TIME      CNTS         A2         A3        A3P         A4         KI         KF        RMH         RA         TT        TRT        MAG 
+   1       0.3503    0.3503    0.0001   -0.0003  1000010   152.00     26400     -116.697      8.000    103.820     43.660      1.100      1.100     80.490     24.280      0.059      0.059    -10.000 
+   2       0.3501    0.3501    0.0002    0.1000  1000005   143.55       434     -113.172      8.000    104.990     43.180      1.122      1.100     78.910     24.280      0.059      0.059    -10.000 
+   3       0.3501    0.3501    0.0001    0.1996  1000006   136.29       165     -110.014      8.000    106.150     42.710      1.143      1.100     77.450     24.280      0.059      0.059    -10.000 
+   4       0.3501    0.3501    0.0002    0.2996  1000012   130.41        90     -107.124      8.000    107.280     42.230      1.164      1.100     76.040     24.280      0.059      0.059    -10.000 
+   5       0.3501    0.3501    0.0000    0.3992  1000007   125.14       333     -104.481      8.000    108.400     41.740      1.184      1.100     74.750     24.280      0.059      0.059    -10.000 
+   6       0.3501    0.3501    0.0002    0.4996  1000005   121.37       321     -102.025      8.000    109.490     41.250      1.205      1.100     73.480     24.280      0.059      0.059    -10.000 
+   7       0.3501    0.3501    0.0002    0.5997  1000007   125.40       191      -99.753      8.000    110.570     40.750      1.225      1.100     72.300     24.280      0.059      0.059    -10.000 
+   8       0.3501    0.3501    0.0001    0.7000  1000008   123.83        38      -97.634      8.000    111.640     40.240      1.244      1.100     71.170     24.280      0.060      0.060    -10.000 
+   9       0.3501    0.3501    0.0001    0.7994  1000009   120.54        30      -95.670      8.000    112.680     39.730      1.263      1.100     70.080     24.280      0.060      0.060    -10.000 
+  10       0.3501    0.3501    0.0001    0.8997  1000006   122.75        13      -93.810      8.000    113.720     39.220      1.282      1.100     69.050     24.280      0.060      0.060    -10.000 
+  11       0.3501    0.3501   -0.0000    0.9994  1000014   122.54        19      -92.071      8.000    114.750     38.690      1.301      1.100     68.060     24.280      0.060      0.060    -10.000 
