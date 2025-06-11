@@ -25,7 +25,7 @@ im = plt.imshow(Z, extent=(x.min(), x.max(), y.min(), y.max()),
 plt.colorbar(im, label=r'C$_{p}$ ($\mu $J$\cdot$K$^{-1}$)')
 plt.xlabel('T (K)')
 plt.xlim(0.6, 1.5)
-plt.ylim(0.4, 7)
+plt.ylim(0, 7)
 plt.ylabel('H (T)')
 plt.title(r'Magnetic field applied along the $c$ axis')
 pattern = re.compile(r'([^,]*),([^,]*),([^,]*)')
