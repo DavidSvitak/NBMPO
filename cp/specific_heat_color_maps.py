@@ -130,7 +130,7 @@ plt.text(0.4, 1.3, "phase C")
 plt.text(0.4, 1.8, "phase D")
 plt.text(0.4, 3, "phase E")
 plt.text(1, 2.9, "AFM2")
-plt.savefig("cp/H_along_c_extremes_2.png")
+plt.savefig("cp/H_along_ab_extremes_2.png")
 
 
 
