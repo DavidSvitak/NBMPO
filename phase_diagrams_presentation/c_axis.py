@@ -26,6 +26,7 @@ plt.plot(x_data_cp, y_data_cp, "ro", label = r"C$_p$")
 with open("cp/H_along_c_transitions.txt", "r") as txt:
     x_data_n = []
     y_data_n = []
+    y_err_n = []
     for line in txt:
         line = line.strip()
         tt, hh = line.split(",")
@@ -35,7 +36,8 @@ with open("cp/H_along_c_transitions.txt", "r") as txt:
         hh = float(hh)
         x_data_n.append(tt)
         y_data_n.append(hh)
-plt.plot(x_data_n, y_data_n, "bo", label = "Neutrons")
+        y_err_n.append(0.1)
+plt.errorbar(x_data_n, y_data_n,yerr=y_err_n, fmt= "bo", label = "Neutrons")
 
 plt.plot([0.3, 0.3], [0,3.8], "k-", label="Scan",linewidth=3 ,linestyle=':')
 plt.legend()
@@ -66,6 +68,7 @@ plt.plot(x_data_cp, y_data_cp, "ro", label = r"C$_p$")
 with open("cp/H_along_c_transitions.txt", "r") as txt:
     x_data_n = []
     y_data_n = []
+    y_err_n = []
     for line in txt:
         line = line.strip()
         tt, hh = line.split(",")
@@ -75,7 +78,8 @@ with open("cp/H_along_c_transitions.txt", "r") as txt:
         hh = float(hh)
         x_data_n.append(tt)
         y_data_n.append(hh)
-plt.plot(x_data_n, y_data_n, "bo", label = "Neutrons")
+        y_err_n.append(0.1)
+plt.errorbar(x_data_n, y_data_n, yerr=y_err_n, fmt="bo", label = "Neutrons")
 
 plt.plot([1.2, 1.2], [0,3.8], "k-", label="Scan",linewidth=3 ,linestyle=':')
 plt.legend()
